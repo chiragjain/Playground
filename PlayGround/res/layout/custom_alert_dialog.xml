@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/title_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/cadTitlePanelBackground"
+        android:gravity="center_vertical"
+        android:minWidth="280dp"
+        android:orientation="horizontal"
+        android:padding="8dp" >
+
+        <ImageView
+            android:id="@+id/alertDialogicon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/alertDialogTitle"
+            style="?attr/cadTitleStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/title_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?attr/cadTitleDivider" />
+
+    <FrameLayout
+        android:id="@+id/customPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/cadContentPanelBackground"
+        android:gravity="center"
+        android:minHeight="?attr/cadContentMinHeight"
+        android:padding="?attr/cadContentPadding" >
+    </FrameLayout>
+
+    <View
+        android:id="@+id/content_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?attr/cadContentDivider" />
+
+    <LinearLayout
+        android:id="@+id/buttons_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/cadButtonPanelBackground"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="?attr/cadButtonPaddingVertical"
+        android:paddingLeft="?attr/cadButtonPaddingHorizontal"
+        android:paddingRight="?attr/cadButtonPaddingHorizontal"
+        android:paddingTop="?attr/cadButtonPaddingVertical" >
+
+        <TextView
+            android:id="@+id/alertDialogCancelBtn"
+            style="?attr/cadButtonStyleNegative"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <View
+            android:id="@+id/button_divider"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="?attr/cadButtonDividerPadding"
+            android:layout_marginRight="?attr/cadButtonDividerPadding"
+            android:background="?attr/cadButtonDivider" />
+
+        <TextView
+            android:id="@+id/alernDialogOkBtn"
+            style="?attr/cadButtonStylePositive"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>

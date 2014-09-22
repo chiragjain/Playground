@@ -1,0 +1,1288 @@
+{
+  "country": [    
+    {
+      "id": "3",
+      "name": "Algeria ",
+      "code": "DZ",
+      "phoneCode": 213
+    },
+    {
+      "id": "4",
+      "name": "Andorra ",
+      "code": "AD",
+      "phoneCode": 376
+    },
+    {
+      "id": "5",
+      "name": "Angola ",
+      "code": "AO",
+      "phoneCode": 244
+    },
+    {
+      "id": "6",
+      "name": "Anguilla ",
+      "code": "AI",
+      "phoneCode": 1264
+    },
+    {
+      "id": "7",
+      "name": "Antigua and Barbuda ",
+      "code": "AG",
+      "phoneCode": 1268
+    },
+    {
+      "id": "8",
+      "name": "Argentina ",
+      "code": "AR",
+      "phoneCode": 54
+    },
+    {
+      "id": "9",
+      "name": "Armenia ",
+      "code": "AM",
+      "phoneCode": 374
+    },
+    {
+      "id": "10",
+      "name": "Aruba ",
+      "code": "AW",
+      "phoneCode": 297
+    },
+    {
+      "id": "11",
+      "name": "Australia ",
+      "code": "AU",
+      "phoneCode": 61
+    },
+    {
+      "id": "12",
+      "name": "Austria ",
+      "code": "AT",
+      "phoneCode": 43
+    },
+    {
+      "id": "13",
+      "name": "Azerbaijan ",
+      "code": "AZ",
+      "phoneCode": 994
+    },
+    {
+      "id": "14",
+      "name": "Bahamas ",
+      "code": "BS",
+      "phoneCode": 1242
+    },
+    {
+      "id": "15",
+      "name": "Bahrain ",
+      "code": "BH",
+      "phoneCode": 973
+    },
+    {
+      "id": "16",
+      "name": "Bangladesh ",
+      "code": "BD",
+      "phoneCode": 880
+    },
+    {
+      "id": "17",
+      "name": "Barbados ",
+      "code": "BB",
+      "phoneCode": 1246
+    },
+    {
+      "id": "18",
+      "name": "Belarus ",
+      "code": "BY",
+      "phoneCode": 375
+    },
+    {
+      "id": "19",
+      "name": "Belgium ",
+      "code": "BE",
+      "phoneCode": 32
+    },
+    {
+      "id": "20",
+      "name": "Belize ",
+      "code": "BZ",
+      "phoneCode": 501
+    },
+    {
+      "id": "21",
+      "name": "Benin ",
+      "code": "BJ",
+      "phoneCode": 229
+    },
+    {
+      "id": "22",
+      "name": "Bermuda ",
+      "code": "BM",
+      "phoneCode": 1441
+    },
+    {
+      "id": "23",
+      "name": "Bhutan ",
+      "code": "BT",
+      "phoneCode": 975
+    },
+    {
+      "id": "24",
+      "name": "Bolivia ",
+      "code": "BO",
+      "phoneCode": 591
+    },
+    {
+      "id": "25",
+      "name": "Bosnia Herzegovina ",
+      "code": "BA",
+      "phoneCode": 387
+    },
+    {
+      "id": "26",
+      "name": "Botswana ",
+      "code": "BW",
+      "phoneCode": 267
+    },
+    {
+      "id": "27",
+      "name": "Brazil ",
+      "code": "BR",
+      "phoneCode": 55
+    },
+    {
+      "id": "28",
+      "name": "Brunei ",
+      "code": "BN",
+      "phoneCode": 673
+    },
+    {
+      "id": "29",
+      "name": "Bulgaria ",
+      "code": "BG",
+      "phoneCode": 359
+    },
+    {
+      "id": "30",
+      "name": "Burkina Faso ",
+      "code": "BF",
+      "phoneCode": 226
+    },
+    {
+      "id": "31",
+      "name": "Burundi ",
+      "code": "BI",
+      "phoneCode": 257
+    },
+    {
+      "id": "32",
+      "name": "Cambodia ",
+      "code": "KH",
+      "phoneCode": 855
+    },
+    {
+      "id": "33",
+      "name": "Cameroon ",
+      "code": "CM",
+      "phoneCode": 237
+    },
+    {
+      "id": "34",
+      "name": "Canada ",
+      "code": "CA",
+      "phoneCode": 1
+    },
+    {
+      "id": "35",
+      "name": "Cape Verde Islands ",
+      "code": "CV",
+      "phoneCode": 238
+    },
+    {
+      "id": "36",
+      "name": "Cayman Islands ",
+      "code": "KY",
+      "phoneCode": 1345
+    },
+    {
+      "id": "37",
+      "name": "Central African Republic ",
+      "code": "CF",
+      "phoneCode": 236
+    },
+    {
+      "id": "38",
+      "name": "Chile ",
+      "code": "CL",
+      "phoneCode": 56
+    },
+    {
+      "id": "39",
+      "name": "China ",
+      "code": "CN",
+      "phoneCode": 86
+    },
+    {
+      "id": "40",
+      "name": "Colombia ",
+      "code": "CO",
+      "phoneCode": 57
+    },
+    {
+      "id": "41",
+      "name": "Comoros ",
+      "code": "KM",
+      "phoneCode": 269
+    },
+    {
+      "id": "42",
+      "name": "Congo ",
+      "code": "CG",
+      "phoneCode": 242
+    },
+    {
+      "id": "43",
+      "name": "Cook Islands ",
+      "code": "CK",
+      "phoneCode": 682
+    },
+    {
+      "id": "44",
+      "name": "Costa Rica ",
+      "code": "CR",
+      "phoneCode": 506
+    },
+    {
+      "id": "45",
+      "name": "Croatia ",
+      "code": "HR",
+      "phoneCode": 385
+    },
+    {
+      "id": "46",
+      "name": "Cuba ",
+      "code": "CU",
+      "phoneCode": 53
+    },
+    {
+      "id": "47",
+      "name": "Cyprus North ",
+      "code": "CY",
+      "phoneCode": 90392
+    },
+    {
+      "id": "48",
+      "name": "Cyprus South ",
+      "code": "CY",
+      "phoneCode": 357
+    },
+    {
+      "id": "49",
+      "name": "Czech Republic ",
+      "code": "CZ",
+      "phoneCode": 42
+    },
+    {
+      "id": "50",
+      "name": "Denmark ",
+      "code": "DK",
+      "phoneCode": 45
+    },
+    {
+      "id": "51",
+      "name": "Djibouti ",
+      "code": "DJ",
+      "phoneCode": 253
+    },
+    {
+      "id": "52",
+      "name": "Dominica ",
+      "code": "DM",
+      "phoneCode": 1809
+    },
+    {
+      "id": "53",
+      "name": "Dominican Republic ",
+      "code": "DO",
+      "phoneCode": 1809
+    },
+    {
+      "id": "54",
+      "name": "Ecuador ",
+      "code": "EC",
+      "phoneCode": 593
+    },
+    {
+      "id": "55",
+      "name": "Egypt ",
+      "code": "EG",
+      "phoneCode": 20
+    },
+    {
+      "id": "56",
+      "name": "El Salvador ",
+      "code": "SV",
+      "phoneCode": 503
+    },
+    {
+      "id": "57",
+      "name": "Equatorial Guinea ",
+      "code": "GQ",
+      "phoneCode": 240
+    },
+    {
+      "id": "58",
+      "name": "Eritrea ",
+      "code": "ER",
+      "phoneCode": 291
+    },
+    {
+      "id": "59",
+      "name": "Estonia ",
+      "code": "EE",
+      "phoneCode": 372
+    },
+    {
+      "id": "60",
+      "name": "Ethiopia ",
+      "code": "ET",
+      "phoneCode": 251
+    },
+    {
+      "id": "61",
+      "name": "Falkland Islands ",
+      "code": "FK",
+      "phoneCode": 500
+    },
+    {
+      "id": "62",
+      "name": "Faroe Islands ",
+      "code": "FO",
+      "phoneCode": 298
+    },
+    {
+      "id": "63",
+      "name": "Fiji ",
+      "code": "FJ",
+      "phoneCode": 679
+    },
+    {
+      "id": "64",
+      "name": "Finland ",
+      "code": "FI",
+      "phoneCode": 358
+    },
+    {
+      "id": "65",
+      "name": "France ",
+      "code": "FR",
+      "phoneCode": 33
+    },
+    {
+      "id": "66",
+      "name": "French Guiana ",
+      "code": "GF",
+      "phoneCode": 594
+    },
+    {
+      "id": "67",
+      "name": "French Polynesia ",
+      "code": "PF",
+      "phoneCode": 689
+    },
+    {
+      "id": "68",
+      "name": "Gabon ",
+      "code": "GA",
+      "phoneCode": 241
+    },
+    {
+      "id": "69",
+      "name": "Gambia ",
+      "code": "GM",
+      "phoneCode": 220
+    },
+    {
+      "id": "70",
+      "name": "Georgia ",
+      "code": "GE",
+      "phoneCode": 7880
+    },
+    {
+      "id": "71",
+      "name": "Germany ",
+      "code": "DE",
+      "phoneCode": 49
+    },
+    {
+      "id": "72",
+      "name": "Ghana ",
+      "code": "GH",
+      "phoneCode": 233
+    },
+    {
+      "id": "73",
+      "name": "Gibraltar ",
+      "code": "GI",
+      "phoneCode": 350
+    },
+    {
+      "id": "74",
+      "name": "Greece ",
+      "code": "GR",
+      "phoneCode": 30
+    },
+    {
+      "id": "75",
+      "name": "Greenland ",
+      "code": "GL",
+      "phoneCode": 299
+    },
+    {
+      "id": "76",
+      "name": "Grenada ",
+      "code": "GD",
+      "phoneCode": 1473
+    },
+    {
+      "id": "77",
+      "name": "Guadeloupe ",
+      "code": "GP",
+      "phoneCode": 590
+    },
+    {
+      "id": "78",
+      "name": "Guam ",
+      "code": "GU",
+      "phoneCode": 671
+    },
+    {
+      "id": "79",
+      "name": "Guatemala ",
+      "code": "GT",
+      "phoneCode": 502
+    },
+    {
+      "id": "80",
+      "name": "Guinea ",
+      "code": "GN",
+      "phoneCode": 224
+    },
+    {
+      "id": "81",
+      "name": "Guinea - Bissau ",
+      "code": "GW",
+      "phoneCode": 245
+    },
+    {
+      "id": "82",
+      "name": "Guyana ",
+      "code": "GY",
+      "phoneCode": 592
+    },
+    {
+      "id": "83",
+      "name": "Haiti ",
+      "code": "HT",
+      "phoneCode": 509
+    },
+    {
+      "id": "84",
+      "name": "Honduras ",
+      "code": "HN",
+      "phoneCode": 504
+    },
+    {
+      "id": "85",
+      "name": "Hong Kong ",
+      "code": "HK",
+      "phoneCode": 852
+    },
+    {
+      "id": "86",
+      "name": "Hungary ",
+      "code": "HU",
+      "phoneCode": 36
+    },
+    {
+      "id": "87",
+      "name": "Iceland ",
+      "code": "IS",
+      "phoneCode": 354
+    },
+    {
+      "id": "88",
+      "name": "India ",
+      "code": "IN",
+      "phoneCode": 91
+    },
+    {
+      "id": "89",
+      "name": "Indonesia ",
+      "code": "ID",
+      "phoneCode": 62
+    },
+    {
+      "id": "90",
+      "name": "Iran ",
+      "code": "IR",
+      "phoneCode": 98
+    },
+    {
+      "id": "91",
+      "name": "Iraq ",
+      "code": "IQ",
+      "phoneCode": 964
+    },
+    {
+      "id": "92",
+      "name": "Ireland ",
+      "code": "IE",
+      "phoneCode": 353
+    },
+    {
+      "id": "93",
+      "name": "Israel ",
+      "code": "IL",
+      "phoneCode": 972
+    },
+    {
+      "id": "94",
+      "name": "Italy ",
+      "code": "IT",
+      "phoneCode": 39
+    },
+    {
+      "id": "95",
+      "name": "Jamaica ",
+      "code": "JM",
+      "phoneCode": 1876
+    },
+    {
+      "id": "96",
+      "name": "Japan ",
+      "code": "JP",
+      "phoneCode": 81
+    },
+    {
+      "id": "97",
+      "name": "Jordan ",
+      "code": "JO",
+      "phoneCode": 962
+    },
+    {
+      "id": "98",
+      "name": "Kazakhstan ",
+      "code": "KZ",
+      "phoneCode": 7
+    },
+    {
+      "id": "99",
+      "name": "Kenya ",
+      "code": "KE",
+      "phoneCode": 254
+    },
+    {
+      "id": "100",
+      "name": "Kiribati ",
+      "code": "KI",
+      "phoneCode": 686
+    },
+    {
+      "id": "101",
+      "name": "Korea North ",
+      "code": "KP",
+      "phoneCode": 850
+    },
+    {
+      "id": "102",
+      "name": "Korea South ",
+      "code": "KR",
+      "phoneCode": 82
+    },
+    {
+      "id": "103",
+      "name": "Kuwait ",
+      "code": "KW",
+      "phoneCode": 965
+    },
+    {
+      "id": "104",
+      "name": "Kyrgyzstan ",
+      "code": "KG",
+      "phoneCode": 996
+    },
+    {
+      "id": "105",
+      "name": "Laos ",
+      "code": "LA",
+      "phoneCode": 856
+    },
+    {
+      "id": "106",
+      "name": "Latvia ",
+      "code": "LV",
+      "phoneCode": 371
+    },
+    {
+      "id": "107",
+      "name": "Lebanon ",
+      "code": "LB",
+      "phoneCode": 961
+    },
+    {
+      "id": "108",
+      "name": "Lesotho ",
+      "code": "LS",
+      "phoneCode": 266
+    },
+    {
+      "id": "109",
+      "name": "Liberia ",
+      "code": "LR",
+      "phoneCode": 231
+    },
+    {
+      "id": "110",
+      "name": "Libya ",
+      "code": "LY",
+      "phoneCode": 218
+    },
+    {
+      "id": "111",
+      "name": "Liechtenstein ",
+      "code": "LI",
+      "phoneCode": 417
+    },
+    {
+      "id": "112",
+      "name": "Lithuania ",
+      "code": "LT",
+      "phoneCode": 370
+    },
+    {
+      "id": "113",
+      "name": "Luxembourg ",
+      "code": "LU",
+      "phoneCode": 352
+    },
+    {
+      "id": "114",
+      "name": "Macao ",
+      "code": "MO",
+      "phoneCode": 853
+    },
+    {
+      "id": "115",
+      "name": "Macedonia ",
+      "code": "MK",
+      "phoneCode": 389
+    },
+    {
+      "id": "116",
+      "name": "Madagascar ",
+      "code": "MG",
+      "phoneCode": 261
+    },
+    {
+      "id": "117",
+      "name": "Malawi ",
+      "code": "MW",
+      "phoneCode": 265
+    },
+    {
+      "id": "118",
+      "name": "Malaysia ",
+      "code": "MY",
+      "phoneCode": 60
+    },
+    {
+      "id": "119",
+      "name": "Maldives ",
+      "code": "MV",
+      "phoneCode": 960
+    },
+    {
+      "id": "120",
+      "name": "Mali ",
+      "code": "ML",
+      "phoneCode": 223
+    },
+    {
+      "id": "121",
+      "name": "Malta ",
+      "code": "MT",
+      "phoneCode": 356
+    },
+    {
+      "id": "122",
+      "name": "Marshall Islands ",
+      "code": "MH",
+      "phoneCode": 692
+    },
+    {
+      "id": "123",
+      "name": "Martinique ",
+      "code": "MQ",
+      "phoneCode": 596
+    },
+    {
+      "id": "124",
+      "name": "Mauritania ",
+      "code": "MR",
+      "phoneCode": 222
+    },
+    {
+      "id": "125",
+      "name": "Mayotte ",
+      "code": "YT",
+      "phoneCode": 269
+    },
+    {
+      "id": "126",
+      "name": "Mexico ",
+      "code": "MX",
+      "phoneCode": 52
+    },
+    {
+      "id": "127",
+      "name": "Micronesia ",
+      "code": "FM",
+      "phoneCode": 691
+    },
+    {
+      "id": "128",
+      "name": "Moldova ",
+      "code": "MD",
+      "phoneCode": 373
+    },
+    {
+      "id": "129",
+      "name": "Monaco ",
+      "code": "MC",
+      "phoneCode": 377
+    },
+    {
+      "id": "130",
+      "name": "Mongolia ",
+      "code": "MN",
+      "phoneCode": 976
+    },
+    {
+      "id": "131",
+      "name": "Montserrat ",
+      "code": "MS",
+      "phoneCode": 1664
+    },
+    {
+      "id": "132",
+      "name": "Morocco ",
+      "code": "MA",
+      "phoneCode": 212
+    },
+    {
+      "id": "133",
+      "name": "Mozambique ",
+      "code": "MZ",
+      "phoneCode": 258
+    },
+    {
+      "id": "134",
+      "name": "Myanmar ",
+      "code": "MN",
+      "phoneCode": 95
+    },
+    {
+      "id": "135",
+      "name": "Namibia ",
+      "code": "NA",
+      "phoneCode": 264
+    },
+    {
+      "id": "136",
+      "name": "Nauru ",
+      "code": "NR",
+      "phoneCode": 674
+    },
+    {
+      "id": "137",
+      "name": "Nepal ",
+      "code": "NP",
+      "phoneCode": 977
+    },
+    {
+      "id": "138",
+      "name": "Netherlands ",
+      "code": "NL",
+      "phoneCode": 31
+    },
+    {
+      "id": "139",
+      "name": "New Caledonia ",
+      "code": "NC",
+      "phoneCode": 687
+    },
+    {
+      "id": "140",
+      "name": "New Zealand ",
+      "code": "NZ",
+      "phoneCode": 64
+    },
+    {
+      "id": "141",
+      "name": "Nicaragua ",
+      "code": "NI",
+      "phoneCode": 505
+    },
+    {
+      "id": "142",
+      "name": "Niger ",
+      "code": "NE",
+      "phoneCode": 227
+    },
+    {
+      "id": "143",
+      "name": "Nigeria ",
+      "code": "NG",
+      "phoneCode": 234
+    },
+    {
+      "id": "144",
+      "name": "Niue ",
+      "code": "NU",
+      "phoneCode": 683
+    },
+    {
+      "id": "145",
+      "name": "Norfolk Islands ",
+      "code": "NF",
+      "phoneCode": 672
+    },
+    {
+      "id": "146",
+      "name": "Northern Marianas ",
+      "code": "NP",
+      "phoneCode": 670
+    },
+    {
+      "id": "147",
+      "name": "Norway ",
+      "code": "NO",
+      "phoneCode": 47
+    },
+    {
+      "id": "148",
+      "name": "Oman ",
+      "code": "OM",
+      "phoneCode": 968
+    },
+    {
+      "id": "149",
+      "name": "Palau ",
+      "code": "PW",
+      "phoneCode": 680
+    },
+    {
+      "id": "150",
+      "name": "Panama ",
+      "code": "PA",
+      "phoneCode": 507
+    },
+    {
+      "id": "151",
+      "name": "Papua New Guinea ",
+      "code": "PG",
+      "phoneCode": 675
+    },
+    {
+      "id": "152",
+      "name": "Paraguay ",
+      "code": "PY",
+      "phoneCode": 595
+    },
+    {
+      "id": "153",
+      "name": "Peru ",
+      "code": "PE",
+      "phoneCode": 51
+    },
+    {
+      "id": "154",
+      "name": "Philippines ",
+      "code": "PH",
+      "phoneCode": 63
+    },
+    {
+      "id": "155",
+      "name": "Poland ",
+      "code": "PL",
+      "phoneCode": 48
+    },
+    {
+      "id": "156",
+      "name": "Portugal ",
+      "code": "PT",
+      "phoneCode": 351
+    },
+    {
+      "id": "157",
+      "name": "Puerto Rico ",
+      "code": "PR",
+      "phoneCode": 1787
+    },
+    {
+      "id": "158",
+      "name": "Qatar ",
+      "code": "QA",
+      "phoneCode": 974
+    },
+    {
+      "id": "159",
+      "name": "Reunion ",
+      "code": "RE",
+      "phoneCode": 262
+    },
+    {
+      "id": "160",
+      "name": "Romania ",
+      "code": "RO",
+      "phoneCode": 40
+    },
+    {
+      "id": "161",
+      "name": "Russia ",
+      "code": "RU",
+      "phoneCode": 7
+    },
+    {
+      "id": "162",
+      "name": "Rwanda ",
+      "code": "RW",
+      "phoneCode": 250
+    },
+    {
+      "id": "163",
+      "name": "San Marino ",
+      "code": "SM",
+      "phoneCode": 378
+    },
+    {
+      "id": "164",
+      "name": "Sao Tome and Principe ",
+      "code": "ST",
+      "phoneCode": 239
+    },
+    {
+      "id": "165",
+      "name": "Saudi Arabia ",
+      "code": "SA",
+      "phoneCode": 966
+    },
+    {
+      "id": "166",
+      "name": "Senegal ",
+      "code": "SN",
+      "phoneCode": 221
+    },
+    {
+      "id": "167",
+      "name": "Serbia ",
+      "code": "CS",
+      "phoneCode": 381
+    },
+    {
+      "id": "168",
+      "name": "Seychelles ",
+      "code": "SC",
+      "phoneCode": 248
+    },
+    {
+      "id": "169",
+      "name": "Sierra Leone ",
+      "code": "SL",
+      "phoneCode": 232
+    },
+    {
+      "id": "170",
+      "name": "Singapore ",
+      "code": "SG",
+      "phoneCode": 65
+    },
+    {
+      "id": "171",
+      "name": "Slovak Republic ",
+      "code": "SK",
+      "phoneCode": 421
+    },
+    {
+      "id": "172",
+      "name": "Slovenia ",
+      "code": "SI",
+      "phoneCode": 386
+    },
+    {
+      "id": "173",
+      "name": "Solomon Islands ",
+      "code": "SB",
+      "phoneCode": 677
+    },
+    {
+      "id": "174",
+      "name": "Somalia ",
+      "code": "SO",
+      "phoneCode": 252
+    },
+    {
+      "id": "175",
+      "name": "South Africa ",
+      "code": "ZA",
+      "phoneCode": 27
+    },
+    {
+      "id": "176",
+      "name": "Spain ",
+      "code": "ES",
+      "phoneCode": 34
+    },
+    {
+      "id": "177",
+      "name": "Sri Lanka ",
+      "code": "LK",
+      "phoneCode": 94
+    },
+    {
+      "id": "178",
+      "name": "St. Helena ",
+      "code": "SH",
+      "phoneCode": 290
+    },
+    {
+      "id": "179",
+      "name": "St. Kitts ",
+      "code": "KN",
+      "phoneCode": 1869
+    },
+    {
+      "id": "180",
+      "name": "St. Lucia ",
+      "code": "SC",
+      "phoneCode": 1758
+    },
+    {
+      "id": "181",
+      "name": "Sudan ",
+      "code": "SD",
+      "phoneCode": 249
+    },
+    {
+      "id": "182",
+      "name": "Suriname ",
+      "code": "SR",
+      "phoneCode": 597
+    },
+    {
+      "id": "183",
+      "name": "Swaziland ",
+      "code": "SZ",
+      "phoneCode": 268
+    },
+    {
+      "id": "184",
+      "name": "Sweden ",
+      "code": "SE",
+      "phoneCode": 46
+    },
+    {
+      "id": "185",
+      "name": "Switzerland ",
+      "code": "CH",
+      "phoneCode": 41
+    },
+    {
+      "id": "186",
+      "name": "Syria ",
+      "code": "SI",
+      "phoneCode": 963
+    },
+    {
+      "id": "187",
+      "name": "Taiwan ",
+      "code": "TW",
+      "phoneCode": 886
+    },
+    {
+      "id": "188",
+      "name": "Tajikstan ",
+      "code": "TJ",
+      "phoneCode": 7
+    },
+    {
+      "id": "189",
+      "name": "Thailand ",
+      "code": "TH",
+      "phoneCode": 66
+    },
+    {
+      "id": "190",
+      "name": "Togo ",
+      "code": "TG",
+      "phoneCode": 228
+    },
+    {
+      "id": "191",
+      "name": "Tonga ",
+      "code": "TO",
+      "phoneCode": 676
+    },
+    {
+      "id": "192",
+      "name": "Trinidad and Tobago ",
+      "code": "TT",
+      "phoneCode": 1868
+    },
+    {
+      "id": "193",
+      "name": "Tunisia ",
+      "code": "TN",
+      "phoneCode": 216
+    },
+    {
+      "id": "194",
+      "name": "Turkey ",
+      "code": "TR",
+      "phoneCode": 90
+    },
+    {
+      "id": "195",
+      "name": "Turkmenistan ",
+      "code": "TM",
+      "phoneCode": 7
+    },
+    {
+      "id": "196",
+      "name": "Turkmenistan ",
+      "code": "TM",
+      "phoneCode": 993
+    },
+    {
+      "id": "197",
+      "name": "Turks and Caicos Islands ",
+      "code": "TC",
+      "phoneCode": 1649
+    },
+    {
+      "id": "198",
+      "name": "Tuvalu ",
+      "code": "TV",
+      "phoneCode": 688
+    },
+    {
+      "id": "199",
+      "name": "Uganda ",
+      "code": "UG",
+      "phoneCode": 256
+    },
+    {
+      "id": "200",
+      "name": "UK ",
+      "code": "GB",
+      "phoneCode": 44
+    },
+    {
+      "id": "201",
+      "name": "Ukraine ",
+      "code": "UA",
+      "phoneCode": 380
+    },
+    {
+      "id": "202",
+      "name": "United Arab Emirates ",
+      "code": "AE",
+      "phoneCode": 971
+    },
+    {
+      "id": "203",
+      "name": "Uruguay ",
+      "code": "UY",
+      "phoneCode": 598
+    },
+    {
+      "id": "204",
+      "name": "USA ",
+      "code": "US",
+      "phoneCode": 1
+    },
+    {
+      "id": "205",
+      "name": "Uzbekistan ",
+      "code": "UZ",
+      "phoneCode": 7
+    },
+    {
+      "id": "206",
+      "name": "Vanuatu ",
+      "code": "VU",
+      "phoneCode": 678
+    },
+    {
+      "id": "207",
+      "name": "Vatican City ",
+      "code": "VA",
+      "phoneCode": 379
+    },
+    {
+      "id": "208",
+      "name": "Venezuela ",
+      "code": "VE",
+      "phoneCode": 58
+    },
+    {
+      "id": "209",
+      "name": "Vietnam ",
+      "code": "VN",
+      "phoneCode": 84
+    },
+    {
+      "id": "210",
+      "name": "Virgin Islands - British ",
+      "code": "VG",
+      "phoneCode": 84
+    },
+    {
+      "id": "211",
+      "name": "Virgin Islands - US ",
+      "code": "VI",
+      "phoneCode": 84
+    },
+    {
+      "id": "212",
+      "name": "Wallis and Futuna ",
+      "code": "WF",
+      "phoneCode": 681
+    },
+    {
+      "id": "213",
+      "name": "Yemen ",
+      "code": "YE",
+      "phoneCode": 969
+    },
+    {
+      "id": "214",
+      "name": "Yemen ",
+      "code": "YE",
+      "phoneCode": 967
+    },
+    {
+      "id": "215",
+      "name": "Zambia ",
+      "code": "ZM",
+      "phoneCode": 260
+    },
+    {
+      "id": "216",
+      "name": "Zimbabwe ",
+      "code": "ZW",
+      "phoneCode": 263
+    }
+  ]
+}

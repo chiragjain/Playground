@@ -1,0 +1,25 @@
+<resources>
+
+    <!--
+        Base application theme for API 14+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 14+ devices.
+    -->
+    <style name="AppBaseTheme" parent="@style/Theme.Sherlock.Light.DarkActionBar">      
+    </style>
+    
+    <style name="VioletActionBarStyle" parent="@style/Widget.Sherlock.ActionBar">       
+        <item name="android:background">@drawable/bg_actionbar</item>
+        <item name="android:titleTextStyle">@style/TitleActionBar</item>
+        <item name="android:icon">@drawable/ic_logo</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowBackground">@drawable/bg_main</item>
+        <item name="android:buttonStyle">@style/ButtonBase</item>       
+        <item name="android:actionBarStyle">@style/VioletActionBarStyle</item>
+        <item name="customAlertDialogStyle">@style/CustomDialogStyle</item>
+    </style>
+
+</resources>

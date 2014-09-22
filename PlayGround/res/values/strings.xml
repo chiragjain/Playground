@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Playground</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Register -->
+    <string name="title_activity_register">Country List Sample</string>
+    <string name="register_description">Select your country, enter your phone number and press continue</string>
+    <string name="select_country">Select Country</string>
+    <string name="enter_phone_no">Phone number without country code</string>
+    <string name="continue_text">Continue</string>
+    <string name="phone_no_verification">Phone Number Verification</string>
+    <string name="edit">Edit</string>
+    <string name="confirm">Confirm</string>
+    <string name="is_this_number">Is this your correct number?</string>
+    <string name="sms_text">An SMS with your verification code will be sent to this number</string>
+    <string name="phone_no_format">(+%1$s) %2$s</string>
+
+    <!-- Country List -->
+    <string name="title_activity_country_list">Select Country</string>
+    <string name="search_country">Search Country</string>
+    <string name="country_list_format">%1$s (+%2$s)</string>
+
+    <!-- Play Zone -->
+    <string name="title_activity_play_zone">Play Zone</string>
+
+    <!-- Particle Text -->
+    <string name="title_particle_animation_test">Particle Animation Test</string>
+    <string name="play_both">Play Together</string>
+    <string name="play_handler">Play using Handler</string>
+    <string name="play_normally">Play Normally</string>
+
+    <!-- Paint View -->
+    <string name="title_activity_paint_view">Paint View</string>
+    <string name="new_page">New</string>
+    <string name="brush_type">Brush Type</string>
+    <string name="brush_size">Brush Size</string>
+    <string name="eraser">Eraser</string>
+    <string name="opacity">Opacity</string>
+    <string name="undo">Undo</string>
+    <string name="redo">Redo</string>
+    <string name="move">Move</string>
+    <string name="save">Save</string>
+    <string name="color_picker">Color Picker</string>
+    <string name="brush_size_preview">Brush Size Preview</string>
+    <string name="save_drawing_message">Save drawing to device Gallery?</string>
+
+    <string-array name="brush_list">
+        <item>Normal</item>
+        <item>Emboss</item>
+        <item>Blur</item>
+        <item>Spray Paint</item>
+        <item>Crayon</item>
+        <item>Chalk</item>
+    </string-array>    
+
+    <!-- Spinner View Graph -->
+    <string name="title_activity_box2d_view">Box2d View</string>    
+    <string name="reset">Reset</string>
+
+</resources>

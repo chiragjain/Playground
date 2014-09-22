@@ -1,0 +1,158 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="@style/Theme.Sherlock.Light.DarkActionBar"></style>
+
+    <style name="VioletActionBarStyle" parent="@style/Widget.Sherlock.ActionBar">
+        <item name="background">@drawable/bg_actionbar</item>
+        <item name="titleTextStyle">@style/TitleActionBar</item>
+        <item name="icon">@drawable/ic_logo</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowBackground">@drawable/bg_main</item>
+        <item name="android:buttonStyle">@style/ButtonBase</item>
+        <item name="actionBarStyle">@style/VioletActionBarStyle</item>
+        <item name="customAlertDialogStyle">@style/CustomDialogStyle</item>
+        <item name="android:seekBarStyle">@style/SeekBarBase</item>
+    </style>
+
+    <style name="CustomListDialogStyle" parent="@style/CustomDialogStyle">
+        <item name="cadContentPadding">0dp</item>
+    </style>
+
+    <style name="CustomDialogStyle" parent="@style/cadStyle">
+        <item name="cadButtonStylePositive">@style/ButtonStyleVioletDialog</item>
+        <item name="cadButtonStyleNegative">@style/ButtonStyleVioletDialog</item>
+        <item name="cadTitleStyle">@style/DialogTitle</item>
+        <item name="cadTitleDivider">@color/violet</item>
+    </style>
+
+    <style name="cadStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="cadTitleStyle">@style/DialogTitle</item>
+        <item name="cadMessageStyle">@style/TextContent</item>
+        <item name="cadSubTitleStyle">@android:style/TextAppearance.Small</item>
+        <item name="cadButtonStylePositive">@style/ButtonStyleVioletDialog</item>
+        <item name="cadButtonStyleNegative">@style/ButtonStyleVioletDialog</item>
+        <item name="cadButtonPaddingHorizontal">0dp</item>
+        <item name="cadButtonPaddingVertical">0dp</item>
+        <item name="cadTitleDivider">@color/divider_color</item>
+        <item name="cadContentDivider">@color/divider_color</item>
+        <item name="cadButtonDivider">@color/divider_color</item>
+        <item name="cadButtonDividerPadding">0dp</item>
+        <item name="cadContentPadding">8dp</item>
+        <item name="cadContentMinHeight">64dp</item>
+        <item name="cadButtonPanelBackground">@android:color/transparent</item>
+        <item name="cadContentPanelBackground">@android:color/transparent</item>
+        <item name="cadTitlePanelBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="TitleActionBar">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/font_medium</item>
+    </style>
+
+    <style name="AppTheme.NoTitle">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="TextContent">
+        <item name="android:textSize">@dimen/font_small</item>
+        <item name="android:textColor">@color/gray_text</item>
+    </style>
+
+    <style name="DialogTitle">
+        <item name="android:textColor">@color/violet</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/font_medium</item>
+    </style>
+
+    <!-- Buttons -->
+    <style name="ButtonBase" parent="@android:style/Widget.Button">
+        <item name="android:minWidth">0dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="ButtonNormal" parent="ButtonBase">
+        <item name="android:textSize">@dimen/font_medium</item>
+        <item name="android:textColor">@color/gray_text</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/padding_medium</item>
+        <item name="android:background">@drawable/btn_violet</item>
+    </style>
+
+    <style name="ButtonForward" parent="ButtonNormal">
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textSize">@dimen/font_medium</item>
+        <item name="android:background">@drawable/btn_white</item>
+        <item name="android:drawableRight">@drawable/ic_arrow</item>
+    </style>
+
+    <style name="ButtonMainYellow" parent="ButtonNormal">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/button_text_color</item>
+        <item name="android:shadowColor">@color/translucent_white</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:background">@drawable/btn_yellow</item>
+    </style>
+
+    <style name="ButtonMainViolet" parent="ButtonNormal">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/btn_violet</item>
+    </style>
+
+    <style name="ButtonStyleVioletDialog" parent="cad__ButtonStyleDialog">
+        <item name="android:background">@drawable/btn_transparent_violet</item>
+    </style>
+
+    <style name="ButtonStyleYellowDialog" parent="cad__ButtonStyleDialog">
+        <item name="android:background">@drawable/btn_transparent_yellow</item>
+    </style>
+
+    <style name="cad__ButtonStyleDialog" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/item_background_holo_light</item>
+        <item name="android:textAppearance">@style/TextContent</item>
+        <item name="android:textColor">@color/gray_text</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:padding">4.0dip</item>
+    </style>
+
+    <!-- EditTexts -->
+    <style name="EditTextBase" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/edit_text_violet</item>
+    </style>
+
+    <style name="EditTextNormal" parent="EditTextBase">
+        <item name="android:textSize">@dimen/font_medium</item>
+        <item name="android:textColor">@color/gray_text</item>
+        <item name="android:textColorHint">@color/gray_disabled</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+    <!-- Dialog Style -->
+    <style name="dialog_base" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+
+    <style name="SeekBarBase" parent="android:Widget.SeekBar">
+        <item name="android:progressDrawable">@drawable/veve_scrubber_progress_horizontal_holo_light</item>
+        <item name="android:indeterminateDrawable">@drawable/veve_scrubber_progress_horizontal_holo_light</item>
+        <item name="android:minHeight">13dip</item>
+        <item name="android:maxHeight">13dip</item>
+        <item name="android:thumb">@drawable/veve_scrubber_control_selector_holo_light</item>
+        <item name="android:thumbOffset">16dip</item>
+        <item name="android:paddingLeft">16dip</item>
+        <item name="android:paddingRight">16dip</item>
+    </style>
+
+</resources>

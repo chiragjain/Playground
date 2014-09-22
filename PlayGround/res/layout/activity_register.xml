@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".CountryListSample" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/TextContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/register_description" />
+
+            <Button
+                android:id="@+id/selectCountryButton"
+                style="@style/ButtonForward"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_large"
+                android:text="@string/select_country" />
+
+            <EditText
+                android:id="@+id/phoneNumber"
+                style="@style/EditTextNormal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding_large"
+                android:hint="@string/enter_phone_no"
+                android:inputType="phone" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/continueButton"
+        style="@style/ButtonMainYellow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_large"
+        android:text="@string/continue_text" />
+
+</LinearLayout>

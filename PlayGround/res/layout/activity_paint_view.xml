@@ -1,0 +1,125 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PaintViewTest" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/translucent_white"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/newButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/padding_small"
+            android:background="@drawable/btn_violet"
+            android:contentDescription="@string/new_page"
+            android:padding="@dimen/padding_small"
+            android:src="@drawable/ic_new" />
+
+        <ImageButton
+            android:id="@+id/undoButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/padding_small"
+            android:background="@drawable/btn_violet"
+            android:contentDescription="@string/undo"
+            android:padding="@dimen/padding_small"
+            android:src="@drawable/ic_undo" />
+
+        <ImageButton
+            android:id="@+id/redoButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/padding_small"
+            android:background="@drawable/btn_violet"
+            android:contentDescription="@string/redo"
+            android:padding="@dimen/padding_small"
+            android:src="@drawable/ic_redo" />
+
+        <ImageButton
+            android:id="@+id/moveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/padding_small"
+            android:background="@drawable/btn_violet"
+            android:contentDescription="@string/move"
+            android:padding="@dimen/padding_small"
+            android:src="@drawable/ic_move" />
+
+        <ImageButton
+            android:id="@+id/saveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/padding_small"
+            android:background="@drawable/btn_violet"
+            android:contentDescription="@string/save"
+            android:padding="@dimen/padding_small"
+            android:src="@drawable/ic_save" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/translucent_white"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/brushButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/padding_small"
+            android:background="@drawable/btn_violet"
+            android:contentDescription="@string/brush_type"
+            android:padding="@dimen/padding_small"
+            android:src="@drawable/ic_brush" />
+
+        <ImageButton
+            android:id="@+id/brushSizeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/padding_small"
+            android:background="@drawable/btn_violet"
+            android:contentDescription="@string/brush_size"
+            android:padding="@dimen/padding_small"
+            android:src="@drawable/ic_brush_size" />
+
+        <ImageButton
+            android:id="@+id/eraserButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/padding_small"
+            android:background="@drawable/btn_violet"
+            android:contentDescription="@string/eraser"
+            android:padding="@dimen/padding_small"
+            android:src="@drawable/ic_eraser" />
+
+        <ImageButton
+            android:id="@+id/colorPickerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/padding_small"
+            android:background="@drawable/btn_violet"
+            android:contentDescription="@string/color_picker"
+            android:padding="@dimen/padding_small"
+            android:src="@drawable/ic_color_picker" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/selectedColorView"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/default_selected_color" />
+
+    <com.learn.playground.widget.drawing.PixelPaintView
+        android:id="@+id/paintView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
