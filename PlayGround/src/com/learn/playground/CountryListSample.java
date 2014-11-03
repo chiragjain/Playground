@@ -1,25 +1,25 @@
 package com.learn.playground;
 
 import java.util.ArrayList;
-
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.telephony.TelephonyManager;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-
-import com.actionbarsherlock.view.MenuItem;
 import com.learn.playground.data.CountryCodes;
 import com.learn.playground.data.CountryCodes.CountryCode;
 import com.learn.playground.utils.CustomAlertDialog;
 import com.learn.playground.utils.CustomAlertDialog.CustomDialogListener;
 
+@SuppressLint("InflateParams")
 public class CountryListSample extends BaseActivity implements OnClickListener {
 
 	private Button countryCodeButton;
@@ -32,7 +32,7 @@ public class CountryListSample extends BaseActivity implements OnClickListener {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_register);
-		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+		getActionBar().setDisplayHomeAsUpEnabled(true);
 
 		countryCodeButton = (Button) findViewById(R.id.selectCountryButton);
 		countryCodeButton.setOnClickListener(this);
@@ -62,7 +62,7 @@ public class CountryListSample extends BaseActivity implements OnClickListener {
 		validateForm();
 		setCurrentCountry();
 	}
-	
+
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 		switch (item.getItemId()) {

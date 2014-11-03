@@ -5,8 +5,8 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="11"
-        android:targetSdkVersion="20" />
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.CAMERA" />
@@ -49,15 +49,15 @@
             android:label="@string/title_activity_play_zone" >
         </activity>
         <activity
-            android:name="com.learn.playground.ParticleAnimationTest"
+            android:name="com.learn.playground.ParticleAnimationSample"
             android:label="@string/title_particle_animation_test" >
         </activity>
         <activity
-            android:name="com.learn.playground.PaintViewTest"
+            android:name="com.learn.playground.PaintViewSample"
             android:label="@string/title_activity_paint_view" >
         </activity>       
         <activity
-            android:name="com.learn.playground.Box2DViewTest"
+            android:name="com.learn.playground.Box2DViewSample"
             android:label="@string/title_activity_box2d_view"
             android:screenOrientation="portrait" >
         </activity>

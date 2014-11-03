@@ -37,15 +37,15 @@ public class PlayZone extends BaseActivity {
 					int position, long index) {
 				switch (LINKS[position]) {
 				case R.string.title_particle_animation_test:
-					startIntent(PlayZone.this, ParticleAnimationTest.class);
+					startIntent(PlayZone.this, ParticleAnimationSample.class);
 					break;
 
 				case R.string.title_activity_paint_view:
-					startIntent(PlayZone.this, PaintViewTest.class);
+					startIntent(PlayZone.this, PaintViewSample.class);
 					break;				
 
 				case R.string.title_activity_box2d_view:
-					startIntent(PlayZone.this, Box2DViewTest.class);
+					startIntent(PlayZone.this, Box2DViewSample.class);
 					break;
 
 				case R.string.title_activity_register:

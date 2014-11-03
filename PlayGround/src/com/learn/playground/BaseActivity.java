@@ -4,10 +4,9 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.actionbarsherlock.app.SherlockFragmentActivity;
 import com.learn.playground.extras.Constants;
 
-public class BaseActivity extends SherlockFragmentActivity implements Constants {
+public class BaseActivity extends Activity implements Constants {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

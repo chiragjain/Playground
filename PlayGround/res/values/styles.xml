@@ -1,18 +1,18 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <style name="AppBaseTheme" parent="@style/Theme.Sherlock.Light.DarkActionBar"></style>
+    <style name="AppBaseTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar"></style>
 
-    <style name="VioletActionBarStyle" parent="@style/Widget.Sherlock.ActionBar">
-        <item name="background">@drawable/bg_actionbar</item>
-        <item name="titleTextStyle">@style/TitleActionBar</item>
-        <item name="icon">@drawable/ic_logo</item>
+    <style name="VioletActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/bg_actionbar</item>
+        <item name="android:titleTextStyle">@style/TitleActionBar</item>
+        <item name="android:icon">@drawable/ic_logo</item>
     </style>
 
     <!-- Application theme. -->
     <style name="AppTheme" parent="AppBaseTheme">
         <item name="android:windowBackground">@drawable/bg_main</item>
         <item name="android:buttonStyle">@style/ButtonBase</item>
-        <item name="actionBarStyle">@style/VioletActionBarStyle</item>
+        <item name="android:actionBarStyle">@style/VioletActionBarStyle</item>
         <item name="customAlertDialogStyle">@style/CustomDialogStyle</item>
         <item name="android:seekBarStyle">@style/SeekBarBase</item>
     </style>
